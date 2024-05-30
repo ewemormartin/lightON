@@ -50,7 +50,7 @@ class Jatekter
     {
         if (x >= 0 && x < this.#meret && y >= 0 && y < this.#meret)
         {
-            this.#allapotLista[y][x].setAllapot();
+            this.#allapotLista[x,y].setAllapot();
         }
     }
 
